@@ -1,4 +1,5 @@
-//Nav color and active class acoriding to page
+//Testing all step by step sepreatly
+{/* 
 window.onscroll = function() {navActive()};
 var home = document.getElementById("home").offsetTop;
 var news = document.getElementById("news").offsetTop;
@@ -80,3 +81,4 @@ contactbtn.addEventListener('click', () => window.scrollTo({
   behavior: 'smooth',
 }));
 
+*/}

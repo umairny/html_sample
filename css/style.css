@@ -16,8 +16,6 @@
 .color-secondary-2-3 { color: #004995 }
 .color-secondary-2-4 { color: #00274E }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +23,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #00274E;
+
+    height: 100vh;
 }
+
 .cont{
   display: flex;
   justify-content: center;
@@ -33,88 +35,23 @@ body {
   height: 100vh;
 }
 
-/* Page one bk*/
-.bkimg1{
-  background-color: #017CFC;
-  /*background: url(/img/bk_img.jpg) center no-repeat;*/
-  height: 100vh;
-  text-align: center;
-}
-
-/* Page two bk*/
-.bkimg2{
- /* background: url(/img/bk_img1.jpg) center no-repeat;*/
-  background-color: #E5C400;
-  height: 100vh;
-  text-align: center;
-}
-
-/* Page three bk*/
-.bkimg3{
-  /*background: url(/img/bk_img2.jpg) center no-repeat;*/
-  background-color: #3391F2;
-  height: 100vh;
-  text-align: center;
-}
-
-/* Page four bk*/
-.bkimg4{
-  /*background: url(/img/bk_img3.jpg) center no-repeat;*/
-  background-color: #FFF4B6;
-  height: 100vh;
-  text-align: center;
-}
-
-/* Container widht*/
-.container {
-  width: 1024px;
-  margin: auto;
-}
-
-/* clear fix */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/*Logo top nav*/
-.logo{
-  height: 35px;
-  padding: 4px;
-  float:left;
-}
-
-.logo1{
-  background-image: url(/img/logo1.svg);
-}
-
-/* Style the navbar */
-#Navbar {
-  overflow: hidden;
-}
 
 /* Navbar links */
-#Navbar a {
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+.btn {
+  cursor: pointer;
+  position: relative;
+  top: 22px;
+  padding: 18px 18px;
   text-decoration: none;
-  color: azure;
-  cursor:pointer;
+  color:#E5C400;
 }
 
-#Navbar a:hover {
-  background-color: #004995;
+a:hover {
+  background-color: #EEAADF;
+  color: #004995;
 }
 
 .active {
-  background-color: #004995;
+  background-color: #EEAADF;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
